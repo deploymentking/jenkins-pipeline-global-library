@@ -15,7 +15,7 @@ def execute() {
       success {
       }
       always {
-        deleteDir()
+//        deleteDir()
       }
     }
   }
