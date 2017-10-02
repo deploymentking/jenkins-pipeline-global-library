@@ -57,5 +57,5 @@ def execute() {
 ```
 
 ## References
-See this [documentation](https://jenkins.io/doc/book/pipeline/shared-libraries/) for details on shared libraries
-See this [article](https://jenkins.io/blog/2017/02/07/declarative-maven-project/) for details on using Maven in a declarative pipeline
+* See this [documentation](https://jenkins.io/doc/book/pipeline/shared-libraries/) for details on shared libraries
+* See this [article](https://jenkins.io/blog/2017/02/07/declarative-maven-project/) for details on using Maven in a declarative pipeline
