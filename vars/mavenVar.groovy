@@ -1,5 +1,5 @@
 
-def execute(int buildNumber) {
+def call(int buildNumber) {
   pipeline {
     agent any
 
