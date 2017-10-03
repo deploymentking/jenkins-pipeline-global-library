@@ -10,7 +10,7 @@ def call(int buildNumber) {
       }
       stage('Debug Branch Name') {
         when {
-          branch '*/master'
+          branch 'master'
         }
         steps {
           echo "The branch name is ${env.BRANCH_NAME}"
