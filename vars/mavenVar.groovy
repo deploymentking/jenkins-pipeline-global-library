@@ -16,8 +16,6 @@ def call(int buildNumber) {
       }
     }
     post {
-      success {
-      }
       always {
         deleteDir()
       }
