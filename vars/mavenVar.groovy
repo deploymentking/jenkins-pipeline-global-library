@@ -8,9 +8,17 @@ def call(int buildNumber) {
           echo "The build number is ${buildNumber}"
         }
       }
-      stage('Debug Branch Name') {
+      stage('Debug master Branch Name') {
         when {
           branch 'master'
+        }
+        steps {
+          echo "The branch name is ${env.BRANCH_NAME}"
+        }
+      }
+      stage('Debug develop Branch Name') {
+        when {
+          branch 'develop'
         }
         steps {
           echo "The branch name is ${env.BRANCH_NAME}"
